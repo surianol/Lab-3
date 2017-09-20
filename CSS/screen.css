@@ -237,7 +237,6 @@ body {
 	text-align: center;
 	font-weight: bold;
 	color: black;
-	font-size: 1rem;
 }
 
 div, section, fieldset, footer {
@@ -249,6 +248,15 @@ h2 {
 	text-align: center;
 	margin-top: 1rem;
 	padding: 1.5rem;
+	font-size: 2rem;
+}
+
+legend {
+	font-size: 1.5rem;
+}
+
+p {
+	margin: 1rem;
 }
 
 footer {
