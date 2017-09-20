@@ -7,6 +7,25 @@
   <link rel="stylesheet" media="screen" href="screen.css" />
 </head>
 <body>
+	<section id="form">
+		<h2> Registration Form: </h2>
+		<fieldset id="info">
+			<p><label> First Name: <input type="text" name="first_name_field" placeholder="First Name" ></label></p>
+			<p><label> Last Name: <input type="text" name="last_name_field" placeholder="Last Name" ></label></p>
+			<p><label> Phone Number: <input type="tel" name="phone_field" placeholder="(xxx) xxx - xxxx" ></label></p>
+			<p><label> Email Address: <input type="email" name="email_field" placeholder="email@example.com" ></label></p>
 
+			<p> Gender:    
+				<label> Male: <input type="radio" name="gender_field" value="Male"></label>
+				<label> Female: <input type="radio" name="gender_field" value="Female"></label>
+			</p>
+			<p>
+				<label for="our_textarea"> Any Comments?: </label><br>
+				<textarea cols="180" rows="6" name="comments_field" placeholder="Write your comments here!" id="our_textarea"></textarea>
+			</p>
+			<p><input type="hidden" name="hidden_field" value="lsuriano"></p>
+			<p><input type="submit" value="Send Me"></p>
+		</fieldset>
+	</section>
 </body>
 </html>
