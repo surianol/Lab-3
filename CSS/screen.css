@@ -219,7 +219,7 @@ textarea {
 /* my css */
 html {
 	font-family: "Times New Roman", Times, serif !important;
-	background: url(../Images/image1.png) no-repeat;
+	background-color: #b3c6ff;
 	vertical-align: baseline;	
 	width: 100%;
 	max-width: 1920px; /* MAX SIZE */
@@ -237,7 +237,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	color: black;
-	font-size: 1.3em;
+	font-size: 1rem;
 }
 
 div, section, fieldset, footer {
