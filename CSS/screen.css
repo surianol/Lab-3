@@ -52,9 +52,7 @@ table {
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
-/* Forms
-   ========================================================================== */
-
+/* Forms */
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
@@ -218,5 +216,47 @@ textarea {
   font: inherit; /* 2 */
 }
 
-/* start my css */
+/* my css */
+html {
+	background-color: #80b3ff;
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
+	font-size: 100%;
+	font-weight: 400;
+	font: inherit;
+	margin-top: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;	
+	width: 100%;
+	max-width: 1920px; /* MAX SIZE */
+	background-image: url(Images/IITCampus.jpg) no-repeat;
+	background-size: 100% auto;
+}
 
+body, div, section, fieldset, footer {
+	clear: both;
+	text-align: center;
+	margin: 0;
+	padding: 0.5rem;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	padding: 0.5rem;
+}
+
+footer {
+	margin: 15px;
+	border: 15px;
+}
+
+p#email {
+	text-align: center;
+	margin: 0.2rem;
+}
+
+p#css {
+	text-align: center;
+	margin: 0.2rem;
+}
