@@ -218,32 +218,29 @@ textarea {
 
 /* my css */
 html {
-	background-color: #80b3ff;
-	font-family: "Comic Sans MS", cursive, sans-serif !important;
-	font-size: 100%;
-	font-weight: 400;
-	font: inherit;
-	margin-top: 0;
-	padding: 0;
-	border: 0;
+	font-family: "Times New Roman", Times, serif !important;
+	background: url(../Images/image1.png) no-repeat;
 	vertical-align: baseline;	
 	width: 100%;
 	max-width: 1920px; /* MAX SIZE */
-	background-image: url(Images/IITCampus.jpg) no-repeat;
 	background-size: 100% auto;
 }
 
-body, div, section, fieldset, footer {
-	clear: both;
+body {
 	text-align: center;
-	margin: 0;
+	font-weight: bold;
+	color: black;
+}
+
+div, section, fieldset, footer {
+	clear: both;
 	padding: 0.5rem;
 }
 
 h2 {
 	text-align: center;
-	margin: 0;
-	padding: 0.5rem;
+	margin-top: 1rem;
+	padding: 1.5rem;
 }
 
 footer {
@@ -252,11 +249,9 @@ footer {
 }
 
 p#email {
-	text-align: center;
 	margin: 0.2rem;
 }
 
 p#css {
-	text-align: center;
 	margin: 0.2rem;
 }
