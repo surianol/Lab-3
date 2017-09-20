@@ -226,10 +226,17 @@ html {
 	background-size: 100% auto;
 }
 
+@media screen and (min-width: 480px) {
+  label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
 body {
 	text-align: center;
 	font-weight: bold;
 	color: black;
+	font-size: 1.3em;
 }
 
 div, section, fieldset, footer {
